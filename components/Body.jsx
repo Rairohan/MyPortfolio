@@ -11,9 +11,9 @@ export default function Body(){
             <p className="p4">passionate about creating fast, responsive, and visually appealing web applications.</p>
             <div className="work-display">
                 <button>View my Work</button>
-                <a href="https://github.com/Rairohan" target="_blank"><img src="public/gitlogo.jpg" alt="Github" /></a>
-                <a href="https://www.linkedin.com/in/rai-rohan/" target="_blank"><img src="public/linkedinlogo.jpg" alt="LinkedIn"/></a>
-                <a href="mailto:rairohan.30314@gmail.com" target="_blank"><img src="public/gmaillogoo.jpg" alt="Gmail"/></a>
+                <a href="https://github.com/Rairohan" target="_blank"><img src="/gitlogo.jpg" alt="Github" /></a>
+                <a href="https://www.linkedin.com/in/rai-rohan/" target="_blank"><img src="/linkedinlogo.jpg" alt="LinkedIn"/></a>
+                <a href="mailto:rairohan.30314@gmail.com" target="_blank"><img src="/gmaillogoo.jpg" alt="Gmail"/></a>
             </div>
         </main>
     )
