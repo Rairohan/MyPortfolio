@@ -9,11 +9,11 @@ export default function Body(){
             <p className="p2">Rohan Rai</p>
             <p className="p3">I'm a Front-end Developer</p>
             <p className="p4">passionate about creating fast, responsive, and visually appealing web applications.</p>
-            <div className="work-display">
+            <div className="workdisplay">
                 <button>View my Work</button>
-                <a href="https://github.com/Rairohan" target="_blank"><img src="/gitlogo.jpg" alt="Github" /></a>
-                <a href="https://www.linkedin.com/in/rai-rohan/" target="_blank"><img src="/linkedinlogo.jpg" alt="LinkedIn"/></a>
-                <a href="mailto:rairohan.30314@gmail.com" target="_blank"><img src="/gmaillogoo.jpg" alt="Gmail"/></a>
+                <a href="https://github.com/Rairohan" target="_blank"><img src="/gitogo.png" alt="Github" /></a>
+                <a href="https://www.linkedin.com/in/rai-rohan/" target="_blank"><img src="/linkedinlogo.png" alt="LinkedIn"/></a>
+                <a href="mailto:rairohan.30314@gmail.com" target="_blank"><img src="/gmaillogo.png" alt="Gmail"/></a>
             </div>
         </main>
     )
