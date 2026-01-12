@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'JetBrains Mono', monospace;  
+  font-family: 'JetBrains Mono', monospace;
+  text-shadow: 0 0 5px #eeeeee;  
  
 }
 body{
@@ -76,6 +77,7 @@ button{
   cursor: pointer;
   transition: transform 0.5s ease-in-out;
   text-align: center;
+  text-shadow: none;
 }
 button:hover{
   background-color: #066a4a;
@@ -91,14 +93,13 @@ a:hover{
 .about-section{
   margin-top: 220px ;
   text-align: center;
-  background-color: rgba(70, 60, 60, 0.086);
+  background-color: rgba(95, 83, 83, 0.219);
   border-radius: 30px;
   padding: 25px 30px ;
   font-size: 1rem;
   margin-left: 50px;
   margin-right: 50px;
   transition: transform 0.6s ease;
-   text-shadow: 0 0 3px #eeeeee; 
 }
 .about-section:hover{
   transform: scale(1.05);
@@ -112,7 +113,7 @@ a:hover{
 .specs button{
   padding: 10px 15px;
   font-size: 1rem;
-  background-color: rgba(0, 0, 3, 0.137);
+  background-color: rgba(0, 0, 3, 0.223);
   color: black;
   font-weight: bold;
 }
@@ -123,6 +124,10 @@ a:hover{
 .tech h2{
   font-size: 2rem;
   margin-bottom: 10px;
+}
+.tech span{
+  font-size: 1.2rem;
+  color: #333333;
 }
 .Tech-list{
   display:flex;
@@ -143,4 +148,136 @@ a:hover{
   transform: scale(1.2);
   filter: drop-shadow(0 0 12px rgba(17, 140, 240, 0.8));
 }
+.Tech-list li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  font-size: 1rem;
+}
+.projects{
+  text-align: center;
+  margin-top: 100px;
+} 
+.project-cards{
+    display: flex;
+    justify-content: center;
+    margin-top:20px
+}
+.Luxury-Store,
+ .Travel-Journal,
+ .Chef-Claude{
+  width: 280px;
+  background: #ebe3e3;
+  border-radius: 16px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(21, 19, 19, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-right: 20px;
+}
+.Luxury-Store img,
+.Travel-Journal img,
+.Chef-Claude img{
+   width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.Luxury-Store a,
+.Travel-Journal a,
+.Chef-Claude a{
+  padding: 12px;
+  font-size: 16px;
+  color: #141414;
+  text-decoration: none;
+}
 
+.Luxury-Store:hover,
+.Travel-Journal:hover,
+.Chef-Claude:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+}
+.project-cards p {
+ font-size: 0.8rem;
+  text-align: justify;
+  margin: 5px 5px;
+  font-family:"Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+.view-more-button{
+  margin: 30px auto;
+  padding: 5px 15px;
+  text-shadow: none;
+}
+.contact-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+}
+.contact-section h1 ,
+.contact-section p{
+  text-align: center;
+  
+}
+.contact-content {
+  display: flex;
+  gap: 3rem;
+  margin-top: 2rem;
+  background-color: #cbd1cf4e;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.message-form {
+  flex: 1;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.message-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.message-form input,
+.message-form textarea {
+  margin-top: 6px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #ffffff;
+  color: #000000;
+}
+
+.message-form button {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  background: #0f8bf1;
+  color: #fff;
+  cursor: pointer;
+}
+
+.social-links {
+  flex: 1;
+  padding-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.social-links a {
+  color: #ccc;
+  text-decoration: none;
+  background-color: black;
+  padding: 8px;
+  border-radius: 6px;
+  margin-right: auto;
+}
+
+.social-links a:hover {
+  color: #ffffff;
+}
