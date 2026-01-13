@@ -1,9 +1,9 @@
 import React, { useEffect,useState } from "react";
 import {Sun,Moon} from "lucide-react";
 export default function Body(){
-    useEffect(() => {
-        alert("This Site is still under construction")
-    },[])
+    // useEffect(() => {
+    //     alert("This Site is still under construction")
+    // },[])
     const[darkmode,setDarkmode]=useState(false);
      const toggleDarkMode=()=>{
         setDarkmode(!darkmode);

@@ -59,7 +59,7 @@ export default function Contact() {
         </form>
 
         <div className="social-links">
-          <h2>Follow me on Socials</h2>
+          <h2>Reach Out on Socials ?</h2>
           <a href="https://github.com/Rairohan" target="_blank" rel="noreferrer">
             <Github size={24} />
           </a>
