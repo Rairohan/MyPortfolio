@@ -27,6 +27,7 @@ export default function Contact() {
   };
 
   return (
+    <section id="contact">
     <main className="contact-section">
       <h1>Get In Touch</h1>
       <p>
@@ -68,5 +69,6 @@ export default function Contact() {
         </div>
       </div>
     </main>
+    </section>
   );
 }

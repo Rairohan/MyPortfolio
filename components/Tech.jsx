@@ -1,6 +1,7 @@
 import React from "react";
 export default function Tech(){
     return(
+        <section id="skills">
         <div className="tech">
             <h2>Skills & Technologies</h2>
             <br />
@@ -16,5 +17,6 @@ export default function Tech(){
                 </ul>
             </main>
         </div>
+        </section>
     )
 }
